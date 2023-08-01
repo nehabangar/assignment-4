@@ -1,0 +1,150 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f7f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2b2d42; /* Dark blue */
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #weather {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #weather h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Dark gray */
+  }
+  
+  #weather p {
+    font-size: 16px;
+    color: #555; /* Gray */
+  }
+  
+  #gif img {
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #error {
+    color: #ff3f3f; /* Red */
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  select {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .city-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .city-button-container button {
+    margin-top: 10px;
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 12px 24px;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .city-button-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .form-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-button-container button {
+    margin-left: 10px;
+  }
+  
+  /* Color schemes */
+  .container {
+    background-color: #f3f7f9; /* Light gray */
+  }
+  
+  .result {
+    background-color: #f9f9f9; /* Light gray */
+  }
+  
+  button {
+    color: #fff;
+  }
+  
+  body {
+    color: #2b2d42; /* Dark blue */
+  }
+  
+  /* Add more styling options and color schemes based on your preferences */
+  
